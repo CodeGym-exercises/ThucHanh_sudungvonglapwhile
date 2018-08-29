@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bai2</title>
+	<style type="text/css">
+		#container{
+			width:30%;
+			height: 400px;
+			margin:60px auto;
+		}
+		#container hr{
+			
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		
+	</div>
+	<script type="text/javascript">
+		let c = document.getElementById('container');
+		let w = 1;
+		while(w<100){
+			c.innerHTML += "<hr style='width:"+w+"px'/>";
+			w++;
+		}
+	</script>
+</body>
+</html>
